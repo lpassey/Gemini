@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00024_6f3ea91a-271b-471e-911a-5deca4a47d5c-410</transaction>
+  <purchase>2024-07-16T18:34:55-04:00</purchase>
+  <expiration>2024-07-17T00:34:55-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:e71b8a5c-4f3d-48d5-84ed-21636c3de4c3</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Mastering the Art of French Murder</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Colleen Cambridge</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Kensington Books</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9781496739612</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/6852-1/{6F3EA91A-271B-471E-911A-5DECA4A47D5C}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:e71b8a5c-4f3d-48d5-84ed-21636c3de4c3</resource>
+      <permissions>
+        <display>
+          <duration>604794</duration>
+        </display>
+        <excerpt>
+          <duration>604794</duration>
+        </excerpt>
+        <print>
+          <duration>604794</duration>
+        </print>
+        <play>
+          <duration>604794</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>XUUvFYU6YnMFhx2pJgSfx62APxA=</hmac>
+</fulfillmentToken>

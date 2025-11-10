@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00042_3e00fa4d-74be-475b-bcf0-0343b1ae99c7-410</transaction>
+  <purchase>2025-10-07T14:22:57-04:00</purchase>
+  <expiration>2025-10-07T20:22:57-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:e1d84398-c693-4df1-b011-63191d83400e</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Mitosis</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brandon Sanderson</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Random House Children's Books</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">978-0-449-81843-5</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0111-1/{3E00FA4D-74BE-475B-BCF0-0343B1AE99C7}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:e1d84398-c693-4df1-b011-63191d83400e</resource>
+      <permissions>
+        <display>
+          <duration>604796</duration>
+        </display>
+        <excerpt>
+          <duration>604796</duration>
+        </excerpt>
+        <print>
+          <duration>604796</duration>
+        </print>
+        <play>
+          <duration>604796</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>+5mYKazOo8q8rmkYVC9EgyqB8l8=</hmac>
+</fulfillmentToken>

@@ -1,0 +1,29 @@
+<fulfillmentToken fulfillmentType="free" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:b4e1303f-630f-4769-9c82-4dea6d65a277</distributor>
+  <operatorURL>https://contentserver.adobe.com/fulfillment</operatorURL>
+  <transaction>6ad2efdc-a697-4704-b447-a14c2996de0d-0000261d</transaction>
+  <purchase>2025-06-13T18:58:51+00:00</purchase>
+  <expiration>2025-06-13T19:58:51+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:03a5b0ac-9676-45c0-8436-10cacef9d20d</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Les Diaboliques</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Barbey d'Aurevilly, Jules Amédée</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">FeedBooks (www.feedbooks.com)</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">urn:uuid:9399f780-023d-11dd-9fbb-0018f369440e</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:03a5b0ac-9676-45c0-8436-10cacef9d20d</resource>
+      <permissions>
+        <display/>
+        <excerpt/>
+        <print/>
+        <play/>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>BaXxI4/Sb9loRq156COks2A82mw=</hmac>
+</fulfillmentToken>

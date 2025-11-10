@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00172_8a294689-9e38-4435-ac7a-bdc96958d046-410</transaction>
+  <purchase>2025-06-13T15:01:45-04:00</purchase>
+  <expiration>2025-06-13T21:01:45-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:c1d14772-4c0c-4c84-89f2-da1de25075a2</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Argent sale</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karin Slaughter</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">HarperCollins</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9791033904670</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/8126-1/{8A294689-9E38-4435-AC7A-BDC96958D046}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:c1d14772-4c0c-4c84-89f2-da1de25075a2</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>x3d4WMI4Lq7Wwpqtghl6SIvMH6E=</hmac>
+</fulfillmentToken>

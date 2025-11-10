@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00184_9699a7fb-9e8a-4517-8cd6-249a6d9d9184-410</transaction>
+  <purchase>2025-09-22T17:06:49-04:00</purchase>
+  <expiration>2025-09-22T23:06:49-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:defd767b-2480-42f2-94a5-9173d3ff4138</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Criminal</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karin Slaughter</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Random House Publishing Group</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">978-0-345-52851-3</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0111-1/{9699A7FB-9E8A-4517-8CD6-249A6D9D9184}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:defd767b-2480-42f2-94a5-9173d3ff4138</resource>
+      <permissions>
+        <display>
+          <duration>604796</duration>
+        </display>
+        <excerpt>
+          <duration>604796</duration>
+        </excerpt>
+        <print>
+          <duration>604796</duration>
+        </print>
+        <play>
+          <duration>604796</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>5J/12fxkE4uJuTjcPxQqSinp75c=</hmac>
+</fulfillmentToken>

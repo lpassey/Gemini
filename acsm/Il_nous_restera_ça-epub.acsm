@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fulfillmentToken fulfillmentType="buy" xmlns="http://ns.adobe.com/adept">
+    <distributor>urn:uuid:00000000-0000-0000-0000-000000000001</distributor>
+    <operatorURL>http://books.google.com/books/acs4/fulfillment</operatorURL>
+    <expiration>2025-10-15T08:39:45-07:00</expiration>
+    <transaction>ge:868d0812-1fb9-7d70-9b80-819ef359708a:1760541885300419</transaction>
+    <userId>02708435468265752325</userId>
+    <resourceItemInfo>
+        <resource>urn:uuid:868d0812-1fb9-7d70-9b80-819ef359708a</resource>
+        <resourceItem>1</resourceItem>
+        <src>https://books.google.com/books/download/Il_nous_restera_%C3%A7a.epub?acsid=urn:uuid:868d0812-1fb9-7d70-9b80-819ef359708a&amp;output=acs4_book_bytes&amp;ar=39505caa0ecbd289dc55324cc75ad8a6</src>
+        <downloadType>simple</downloadType>
+    </resourceItemInfo>
+    <hmac>4OFOX33IEpIyv3jtsFlYM84EGtc=</hmac>
+</fulfillmentToken>

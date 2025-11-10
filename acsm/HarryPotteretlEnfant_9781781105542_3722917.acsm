@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00171_7f3a06bf-f6ad-4560-b971-05336a4e37c2-410</transaction>
+  <purchase>2025-05-15T19:35:49-04:00</purchase>
+  <expiration>2025-05-16T01:35:49-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:60f2fa10-2b86-4bdd-b1f1-0e38ad55946f</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Harry Potter et l'Enfant Maudit - Parties Un et Deux</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">J. K. Rowling</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Pottermore Publishing</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9781781105542</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/3450-1/{7F3A06BF-F6AD-4560-B971-05336A4E37C2}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:60f2fa10-2b86-4bdd-b1f1-0e38ad55946f</resource>
+      <permissions>
+        <display>
+          <duration>604790</duration>
+        </display>
+        <excerpt>
+          <duration>604790</duration>
+        </excerpt>
+        <print>
+          <duration>604790</duration>
+        </print>
+        <play>
+          <duration>604790</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>GMtv/fJSjB8mG3yNRiH6wn9AVr8=</hmac>
+</fulfillmentToken>

@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00026_0fb0b7b0-e8d2-4dc0-9af9-24ec9aca542e-410</transaction>
+  <purchase>2025-05-15T19:19:54-04:00</purchase>
+  <expiration>2025-05-16T01:19:54-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:363a73a4-90d7-4ee4-a349-570f32f23705</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Miss Peregrine, Tome 01</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ransom Riggs</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Bayard Jeunesse</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9782747075732</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/13375-1/{0FB0B7B0-E8D2-4DC0-9AF9-24EC9ACA542E}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:363a73a4-90d7-4ee4-a349-570f32f23705</resource>
+      <permissions>
+        <display>
+          <duration>604792</duration>
+        </display>
+        <excerpt>
+          <duration>604792</duration>
+        </excerpt>
+        <print>
+          <duration>604792</duration>
+        </print>
+        <play>
+          <duration>604792</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>FBaPYBP6ha/2Blv+eKGJx+L7eao=</hmac>
+</fulfillmentToken>

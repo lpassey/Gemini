@@ -1,0 +1,29 @@
+<fulfillmentToken fulfillmentType="free" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:b4e1303f-630f-4769-9c82-4dea6d65a277</distributor>
+  <operatorURL>https://contentserver.adobe.com/fulfillment</operatorURL>
+  <transaction>b3e2a740-af12-439e-a804-d153636e82a1-0000380f</transaction>
+  <purchase>2025-09-22T18:07:14+00:00</purchase>
+  <expiration>2025-09-22T19:07:14+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:d976a1af-582e-4fad-adb4-f08c878fc550</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Trail of Crumbs: Hunger, Love, and the Search for Home</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kim Sunée</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Grand Central Publishing</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9780446511087</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:d976a1af-582e-4fad-adb4-f08c878fc550</resource>
+      <permissions>
+        <display/>
+        <excerpt/>
+        <print/>
+        <play/>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>AKCJJxMsrTl/5txWqIbV2XxMRjQ=</hmac>
+</fulfillmentToken>

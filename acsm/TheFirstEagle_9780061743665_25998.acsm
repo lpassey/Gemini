@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00168_82eb6f76-98e7-4d40-84c8-28388c451c35-410</transaction>
+  <purchase>2024-06-20T02:50:49-04:00</purchase>
+  <expiration>2024-06-20T08:50:49-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:34e950b0-d127-4b7a-8481-0f2cad394dea</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">The First Eagle</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tony Hillerman</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">HarperCollins</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9780061743665</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0293-1/{82EB6F76-98E7-4D40-84C8-28388C451C35}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:34e950b0-d127-4b7a-8481-0f2cad394dea</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>yqEJYHJyWEYZ408fNRnXG2Zsn3U=</hmac>
+</fulfillmentToken>

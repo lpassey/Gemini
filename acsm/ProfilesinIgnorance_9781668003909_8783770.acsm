@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00187_0f504259-efc9-4600-8f17-7c662683f2b5-410</transaction>
+  <purchase>2025-10-05T14:54:29-04:00</purchase>
+  <expiration>2025-10-05T20:54:29-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:b4cdc591-20bd-4b99-8721-e44d35ad68e2</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Profiles in Ignorance</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andy Borowitz</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Avid Reader Press / Simon &amp; Schuster</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9781668003909</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">EN-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0439-1/{0F504259-EFC9-4600-8F17-7C662683F2B5}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:b4cdc591-20bd-4b99-8721-e44d35ad68e2</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>cYtlSDnABR2ZvWu1bxcF2bfZiz0=</hmac>
+</fulfillmentToken>

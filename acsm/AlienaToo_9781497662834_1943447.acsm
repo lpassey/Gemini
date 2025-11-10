@@ -1,0 +1,38 @@
+<fulfillmentToken xmlns="http://ns.adobe.com/adept" fulfillmentType="loan" auth="user">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00186_56edae20-0486-4b44-8a44-745b045c29eb-410</transaction>
+  <purchase>2025-10-07T14:06:54-04:00</purchase>
+  <expiration>2025-10-07T20:06:54-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:eeacb4e8-e2f8-47a9-910f-6b35049363ea</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Aliena Too</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Piers Anthony</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Open Road Media</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">978-1-4976-6283-4</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/2363-1/{56EDAE20-0486-4B44-8A44-745B045C29EB}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:eeacb4e8-e2f8-47a9-910f-6b35049363ea</resource>
+      <permissions>
+        <display>
+          <duration>18111</duration>
+        </display>
+        <excerpt>
+          <duration>18111</duration>
+        </excerpt>
+        <print>
+          <duration>18111</duration>
+        </print>
+        <play>
+          <duration>18111</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>9uXCom03bKYo5VCUekACpXnlFp0=</hmac>
+</fulfillmentToken>

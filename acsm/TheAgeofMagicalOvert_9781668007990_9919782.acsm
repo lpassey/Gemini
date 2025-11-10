@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00166_0442f0aa-ced7-4337-924b-277f59410d90-410</transaction>
+  <purchase>2024-06-17T14:05:29-04:00</purchase>
+  <expiration>2024-06-17T20:05:29-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:eb5c9fcf-ac4c-4d0d-a32e-fa7791da89c7</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">The Age of Magical Overthinking</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Amanda Montell</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Atria/One Signal Publishers</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9781668007990</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">EN-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0439-1/{0442F0AA-CED7-4337-924B-277F59410D90}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:eb5c9fcf-ac4c-4d0d-a32e-fa7791da89c7</resource>
+      <permissions>
+        <display>
+          <duration>604793</duration>
+        </display>
+        <excerpt>
+          <duration>604793</duration>
+        </excerpt>
+        <print>
+          <duration>604793</duration>
+        </print>
+        <play>
+          <duration>604793</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>wnsc/R4z9DIBHAPdYYR1o5g+9hs=</hmac>
+</fulfillmentToken>

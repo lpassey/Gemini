@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00189_9d56b403-6997-4f88-ac7a-c9f3214697a4-410</transaction>
+  <purchase>2025-10-23T20:47:48-04:00</purchase>
+  <expiration>2025-10-24T02:47:48-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:66148671-a7c0-4f6c-9d45-8c29f730cff0</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Meet Your Baker--A Bakeshop Mystery</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ellie Alexander</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">St. Martin's Publishing Group</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">urn:isbn:9781466857247</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/2390-1/{9D56B403-6997-4F88-AC7A-C9F3214697A4}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:66148671-a7c0-4f6c-9d45-8c29f730cff0</resource>
+      <permissions>
+        <display>
+          <duration>70682</duration>
+        </display>
+        <excerpt>
+          <duration>70682</duration>
+        </excerpt>
+        <print>
+          <duration>70682</duration>
+        </print>
+        <play>
+          <duration>70682</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>u9Wr11foefxCwXKxdY4bNNOqNHI=</hmac>
+</fulfillmentToken>

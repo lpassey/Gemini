@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00022_895c4c42-3227-493c-a706-56d39523b07b-410</transaction>
+  <purchase>2024-06-20T02:46:20-04:00</purchase>
+  <expiration>2024-06-20T08:46:20-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:a6244e04-a673-4a0b-8c5a-b326ff42503c</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Skeleton Man</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tony Hillerman</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">HarperCollins</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9780061801877</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0293-1/{895C4C42-3227-493C-A706-56D39523B07B}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:a6244e04-a673-4a0b-8c5a-b326ff42503c</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>S2E6Bs+OlFATVEXaC/I1xDEZVGA=</hmac>
+</fulfillmentToken>

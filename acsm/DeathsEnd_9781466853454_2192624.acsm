@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00170_864c5505-d823-4382-990d-5fe2f452d6c1-410</transaction>
+  <purchase>2024-09-06T20:15:15-04:00</purchase>
+  <expiration>2024-09-07T02:15:15-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:c16451e6-62ef-4766-8074-c488c813b7c3</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Death's End</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Cixin Liu</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Tor Publishing Group</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">urn:isbn:9781466853454</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/2390-1/{864C5505-D823-4382-990D-5FE2F452D6C1}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:c16451e6-62ef-4766-8074-c488c813b7c3</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>5ts52om4crlV5OqKnqmue7D2+gs=</hmac>
+</fulfillmentToken>

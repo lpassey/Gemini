@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00021_7f19308b-74e6-41ad-8b9d-3943b4829d54-410</transaction>
+  <purchase>2024-06-17T14:03:55-04:00</purchase>
+  <expiration>2024-06-17T20:03:55-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:37091c76-712c-4a86-8794-1e86ab366c6d</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">The Ministry of Time</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kaliane Bradley</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Avid Reader Press / Simon &amp; Schuster</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9781668045169</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">EN-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0439-1/{7F19308B-74E6-41AD-8B9D-3943B4829D54}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:37091c76-712c-4a86-8794-1e86ab366c6d</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>9lbxEWyNSGDBI75A1llWS3m9m4k=</hmac>
+</fulfillmentToken>

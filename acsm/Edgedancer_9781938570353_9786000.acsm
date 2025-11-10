@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00041_f8d39238-70ad-48cc-9756-ab4a4e8847e5-410</transaction>
+  <purchase>2025-10-07T14:10:00-04:00</purchase>
+  <expiration>2025-10-07T20:10:00-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:eb740813-277b-422a-918c-7205154c044d</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Edgedancer</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brandon Sanderson</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Dragonsteel, LLC</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">978-1-938570-35-3</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/7635-1/{F8D39238-70AD-48CC-9756-AB4A4E8847E5}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:eb740813-277b-422a-918c-7205154c044d</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>j4/ojZEstVkc7mwWKgMybFNthk4=</hmac>
+</fulfillmentToken>

@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00175_50937a4b-e841-43e8-8215-cf5f63ebdd3b-410</transaction>
+  <purchase>2025-08-12T19:55:23-04:00</purchase>
+  <expiration>2025-08-13T01:55:23-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:263081c3-9d5a-4a15-9b49-b9272fd4a4da</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Candide</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Voltaire</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Dover Publications</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">0486276252</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/6251-1/{50937A4B-E841-43E8-8215-CF5F63EBDD3B}IMG200.JPG</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:263081c3-9d5a-4a15-9b49-b9272fd4a4da</resource>
+      <permissions>
+        <display>
+          <duration>604796</duration>
+        </display>
+        <excerpt>
+          <duration>604796</duration>
+        </excerpt>
+        <print>
+          <duration>604796</duration>
+        </print>
+        <play>
+          <duration>604796</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>M31hzVW0UItqz1aUWIvKwfga1hw=</hmac>
+</fulfillmentToken>

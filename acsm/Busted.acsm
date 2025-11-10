@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00185_0f38e496-5193-4f45-949c-f0649f4f2e21-410</transaction>
+  <purchase>2025-09-22T18:05:01-04:00</purchase>
+  <expiration>2025-09-23T00:05:01-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:cc543330-2772-45ff-9430-449ade90a84a</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Busted</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karin Slaughter</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Random House Publishing Group</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">978-0-345-54542-8</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.contentreserve.com/ImageType-200/0111-1/{0F38E496-5193-4F45-949C-F0649F4F2E21}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:cc543330-2772-45ff-9430-449ade90a84a</resource>
+      <permissions>
+        <display>
+          <duration>604795</duration>
+        </display>
+        <excerpt>
+          <duration>604795</duration>
+        </excerpt>
+        <print>
+          <duration>604795</duration>
+        </print>
+        <play>
+          <duration>604795</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>mBbMEPa9KVia3HSt1ICNhjDC3Ok=</hmac>
+</fulfillmentToken>

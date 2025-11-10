@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>saltlake~063-1669010-00183_233e87e4-e0f0-49ee-9ee6-faee94649335-410</transaction>
+  <purchase>2025-09-22T17:02:19-04:00</purchase>
+  <expiration>2025-09-22T23:02:19-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:698465e9-f5d6-4b67-bad9-850946d99247</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Undone</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karin Slaughter</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Random House Publishing Group</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">978-0-440-33866-6</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0111-1/{233E87E4-E0F0-49EE-9EE6-FAEE94649335}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:698465e9-f5d6-4b67-bad9-850946d99247</resource>
+      <permissions>
+        <display>
+          <duration>604792</duration>
+        </display>
+        <excerpt>
+          <duration>604792</duration>
+        </excerpt>
+        <print>
+          <duration>604792</duration>
+        </print>
+        <play>
+          <duration>604792</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>BLL6WXGq9kVKOvIyBkaPWUpm2es=</hmac>
+</fulfillmentToken>

@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:f1227b83-f91b-4f30-9ae2-0f65ffeea9ac</distributor>
+  <operatorURL>https://acsepub.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Oregon~115-1735092-00043_d7dddbb1-a1a2-4c5b-b2fc-f6adbceb5574-410</transaction>
+  <purchase>2025-10-24T23:33:08-04:00</purchase>
+  <expiration>2025-10-25T05:33:08-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:907adfce-ebe5-48a3-94e8-fb78fd7f7f32</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Skyward</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brandon Sanderson</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Random House Children's Books</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">9780399555794</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <thumbnailURL>https://images.cdn.overdrive.com/ImageType-200/0111-1/{D7DDDBB1-A1A2-4C5B-B2FC-F6ADBCEB5574}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:907adfce-ebe5-48a3-94e8-fb78fd7f7f32</resource>
+      <permissions>
+        <display>
+          <duration>604796</duration>
+        </display>
+        <excerpt>
+          <duration>604796</duration>
+        </excerpt>
+        <print>
+          <duration>604796</duration>
+        </print>
+        <play>
+          <duration>604796</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>6M2iS2Cx+Y28ndQUeoEJLV8tHkI=</hmac>
+</fulfillmentToken>
