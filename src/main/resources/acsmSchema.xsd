@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://ns.adobe.com/adept"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           targetNamespace="http://ns.adobe.com/adept"
+           elementFormDefault="qualified">
+
+  <!-- 
+    The <xs:import> for Dublin Core is no longer needed,
+    as we are no longer strictly validating its contents.
+  -->
+
+  <!-- ... (No changes to fulfillmentToken) ... -->
+  
+  <xs:element name="fulfillmentToken">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="distributor" type="xs:anyURI"/>
+        <xs:element name="operatorURL" type="xs:anyURI"/>
+        <xs:element name="transaction" type="xs:string"/>
+        <xs:element name="purchase" type="xs:dateTime" minOccurs="0"/>
+        <xs:element name="expiration" type="xs:dateTime" minOccurs="0"/>
+        <xs:element name="resourceItemInfo" type="tns:ResourceItemInfoType"/>
+        <xs:element name="hmac" type="xs:base64Binary"/>
+        <xs:element name="userId" type="xs:token" minOccurs="0"/>
+      </xs:all>
+      <xs:attribute name="fulfillmentType" type="xs:token" use="optional"/>
+      <xs:attribute name="auth" type="xs:token" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- ... (No changes to ResourceItemInfoType) ... -->
+
+  <xs:complexType name="ResourceItemInfoType">
+    <xs:all>
+      <xs:element name="resource" type="xs:anyURI"/>
+      <xs:element name="resourceItem" type="xs:nonNegativeInteger"/>
+      <xs:element name="metadata" type="tns:MetadataType" minOccurs="0"/>
+      <xs:element name="licenseToken" type="tns:LicenseTokenType" minOccurs="0"/>
+      <xs:element name="src" type="xs:anyURI" minOccurs="0"/>
+      <xs:element name="downloadType" type="xs:token" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  <!--
+    *** MODIFIED (v5) ***
+    
+    The MetadataType has been completely simplified.
+    
+    We are no longer trying to validate the specific <dc:title>, <dc:creator>, etc.,
+    or handling the namespace collision.
+    
+    Instead, we now allow ANY valid XML content to exist inside
+    the <metadata> block. This is the only way to support all
+    the variations seen (PURL dc:, Adept dc:, OPF attributes,
+    XSI attributes, and <meta> tags) without the schema failing.
+  -->
+  <xs:complexType name="MetadataType">
+    <xs:sequence>
+      <xs:any namespace="##any" 
+              processContents="lax" 
+              minOccurs="0" 
+              maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <!-- ... (No changes to LicenseTokenType or PermissionDurationType) ... -->
+
+  <xs:complexType name="LicenseTokenType">
+    <xs:sequence>
+      <xs:element name="resource" type="xs:anyURI"/>
+      <xs:element name="permissions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="display" type="tns:PermissionDurationType"/>
+            <xs:element name="excerpt" type="tns:PermissionDurationType"/>
+            <xs:element name="print" type="tns:PermissionDurationType"/>
+            <xs:element name="play" type="tns:PermissionDurationType"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="PermissionDurationType">
+    <xs:sequence>
+      <xs:element name="duration" type="xs:nonNegativeInteger" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
